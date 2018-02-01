@@ -65,14 +65,18 @@
                 <div class="container">           
                     <div class="slider-wrapper">
                     	<div class="inner-wrapper">
+							
                         	 <div class="slide">
-                                <h1>INSPIRERA DIG SJÄLV
-                                <br>
-                                <span>Bläddra igenom våra unika deisgn.</span>
-                                </h1>
-                                <div class="btnInfo"><a href="Ideeas.php">INSPIRATION</a></div>
-                                <div class="slideimg"><img src="Images/logo.png"></div>
+						     	<ul>
+									<li>
+										<img src="Images/Icons/code.png" />
+									</li>
+									<li>
+										<h2>WELCOME YA BOI</h2>
+									</li>
+								</ul>
                             </div>
+							
                             <div class="slide">
                                 <h1>SKAPA DIN EGEN WEBBSIDA IDAG
                                 <br>
@@ -81,6 +85,7 @@
                                 <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
                                 <div class="slideimg"><img src="Images/logo.png"></div>
                             </div>
+							
                              <div class="slide">
                                 <h1>INSPIRERA DIG SJÄLV
                                 <br>
@@ -89,6 +94,7 @@
                                 <div class="btnInfo"><a href="Ideeas.php">INSPIRATION</a></div>
                                 <div class="slideimg"><img src="Images/logo.png"></div>
                             </div>
+							
                             <div class="slide">
                                 <h1>SKAPA DIN EGEN WEBBSIDA MED VÅR HJÄLP
                                 <br>

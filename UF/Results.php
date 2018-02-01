@@ -84,31 +84,8 @@
 
 					if(!$button)
 					echo '<br />';
-					echo 'Inga resultat hittades för: ' . htmlspecialchars($_GET['k']) . '.';
-					
-					// anslut
-					/*mysql_connect("localhost", "root", "korvisinibus1", "test");
-					mysql_select_db("webcreatoruf");
-					
-					$query = mysql_query($query);
-					$numrows = mysql_num_rows($query);
-					if($numrows > 0) {
-						
-						while ($row = mysql_fetch_assoc($query)){
-							$id = $row['id'];
-							$title = $row['title'];
-							$description = $row['description'];
-							$keywords = $row['keywords'];
-							$link = $row['link'];
-							
-							echo "<h2><a href='$link'>$title</a></h2>
-							$description<br /><br />";
-						}	
-					}
-					else
-						echo "Inga träffar hittades för \"<b>$k</b>\"";
-					// koppla ifrån
-					mysql_close();*/
+					echo "<p style='font-size:18px; font-family:Lato; letter-spacing:1.25px; font-weight:400;'>Inga resultat hittades för: " . htmlspecialchars($_GET['k']) . ".</p>";
+					echo '<br />';
 				?>
             </div>
         </article>

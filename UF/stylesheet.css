@@ -292,13 +292,31 @@ article {
 }
 
 .slide ul li img {
-	width:600px;
+	width:650px;
     height:auto;
     position:relative;
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
 	overflow:hidden;
+}
+
+.slide ul li h2 {
+	font-size:50px;
+	text-align:center;
+	padding:60px 0 0 0;
+	line-height: normal;
+}
+
+.slide ul li p {
+	font-size:22px;
+    text-align:center;
+    font-family:"Lato";
+    margin:0 auto;
+	padding:30px;
+    width:65%;
+	letter-spacing: 0.25px;
+    line-height: 30px;
 }
 
 .slide h1, p {

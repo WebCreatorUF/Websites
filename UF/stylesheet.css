@@ -279,33 +279,32 @@ article {
     height:100%;
     margin:0;
     padding:0;
-
 }
 
 .slide ul li {
 	display: inline-block;
     list-style-type: none;
-    background-color: brown;
+    background-color:brown;
     width: 50%;
     float: left;
     height: 100%;
 }
 
 .slide ul li img {
-	width:650px;
+	width:42vw;
     height:auto;
     position:relative;
     top:50%;
     left:50%;
-    transform:translate(-50%, -50%);
+    transform:translate(-40%, -50%);
 	overflow:hidden;
 }
 
 .slide ul li h2 {
-	font-size:50px;
+	font-size:60px;
 	text-align:center;
-	padding:60px 0 0 0;
-	line-height: normal;
+	padding:100px 0 0 0;
+	line-height:normal;
 }
 
 .slide ul li p {
@@ -313,10 +312,17 @@ article {
     text-align:center;
     font-family:"Lato";
     margin:0 auto;
-	padding:30px;
-    width:65%;
-	letter-spacing: 0.25px;
-    line-height: 30px;
+	padding:15px;
+    width:70%;
+	letter-spacing:0.25px;
+    line-height:30px;
+}
+
+.slide:nth-child(2) ul li .btnInfo {
+	width:100%;
+    position:relative;
+    margin:0 auto;
+    top:-10%;
 }
 
 .slide h1, p {

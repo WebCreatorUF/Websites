@@ -66,34 +66,26 @@
                     <div class="slider-wrapper">
                     	<div class="inner-wrapper">
 							
-                        	 <div class="slide">
+							<div class="slide">
+                                <h1>SKAPA DIN EGEN WEBBSIDA IDAG
+                                <br>
+                                <span>Vi bygger din egna drömsida.</span>
+                                </h1>
+                                <div class="btnInfo"><a href="Info.php">INSPIRATION</a></div>
+                                <div class="slideimg"><img src="Images/logo.png"></div>
+                            </div>
+							
+                        	<div class="slide">
 						     	<ul>
 									<li>
 										<img src="Images/Icons/code.png" />
 									</li>
 									<li>
-										<h2>WELCOME YA BOI</h2>
-										<p>djo fdof hsd fhsdufh  huhdf uhsdfi isdf usdf  jhadih asuid asduihasd ihas udhd hiud  asduiihdf isd fsdhif sdi sd fuisddfi</p>
+										<h2>WEB CREATOR 2.0</h2>
+										<p>Här på Web Creator bygger vi din drömmsida, skräddarsydd efter di eget tycke. Kolla gärna på vad vi gör.</p>
+										<div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
 									</li>
 								</ul>
-                            </div>
-							
-                            <div class="slide">
-                                <h1>SKAPA DIN EGEN WEBBSIDA IDAG
-                                <br>
-                                <span>Vi bygger din egna drömsida.</span>
-                                </h1>
-                                <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
-                                <div class="slideimg"><img src="Images/logo.png"></div>
-                            </div>
-							
-                             <div class="slide">
-                                <h1>INSPIRERA DIG SJÄLV
-                                <br>
-                                <span>Bläddra igenom våra unika deisgn.</span>
-                                </h1>
-                                <div class="btnInfo"><a href="Ideeas.php">INSPIRATION</a></div>
-                                <div class="slideimg"><img src="Images/logo.png"></div>
                             </div>
 							
                             <div class="slide">
@@ -101,8 +93,21 @@
                                 <br>
                                 <span>Vi bygger din egna drömmsida.</span>
                                 </h1>
-                                <div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
+                                <div class="btnInfo"><a href="Info.php">INSPIRATION</a></div>
                                 <div class="slideimg"><img src="Images/logo.png"></div>
+                            </div>
+							
+							<div class="slide">
+						     	<ul>
+									<li>
+										<img src="Images/Icons/code.png" />
+									</li>
+									<li>
+										<h2>WEB CREATOR 2.0</h2>
+										<p>Här på Web Creator bygger vi din drömmsida, skräddarsydd efter di eget tycke. Kolla gärna på vad vi gör.</p>
+										<div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
+									</li>
+								</ul>
                             </div>
                       	</div>
                     </div>               

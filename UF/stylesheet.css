@@ -89,7 +89,7 @@ nav ul li a img {
 }
 
 nav ul li:nth-child(-n+3) {
-	padding:0px 25px 0px 6vw;
+	padding:0px 20px 0px 6vw;
 	left:5%;
 	float:left;
 }
@@ -300,29 +300,35 @@ article {
 	overflow:hidden;
 }
 
+.slide ul li div {
+	top:50%;
+	transform:translate(0%, -100%);
+	position: relative;
+}
+
 .slide ul li h2 {
-	font-size:60px;
+	font-size:3.6vw;
 	text-align:center;
-	padding:100px 0 0 0;
-	line-height:normal;
+	padding:0;
+	line-height:6vw;
 }
 
 .slide ul li p {
-	font-size:22px;
+	font-size:1.3vw;
     text-align:center;
     font-family:"Lato";
     margin:0 auto;
-	padding:15px;
+	padding:0;
     width:70%;
 	letter-spacing:0.25px;
-    line-height:30px;
+    line-height:2vw;
 }
 
 .slide:nth-child(2) ul li .btnInfo {
 	width:100%;
     position:relative;
     margin:0 auto;
-    top:-10%;
+    top:-100px;
 }
 
 .slide h1, p {

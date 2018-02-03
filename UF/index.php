@@ -81,9 +81,11 @@
 										<img src="Images/Icons/code.png" />
 									</li>
 									<li>
-										<h2>WEB CREATOR 2.0</h2>
-										<p>Här på Web Creator bygger vi din drömmsida, skräddarsydd efter di eget tycke. Kolla gärna på vad vi gör.</p>
-										<div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
+										<div>
+											<h2>WEB CREATOR 2.0</h2>
+											<p>Här på Web Creator bygger vi din drömmsida, skräddarsydd efter di eget tycke. Kolla gärna på vad vi gör.</p>
+											<div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
+										</div>
 									</li>
 								</ul>
                             </div>

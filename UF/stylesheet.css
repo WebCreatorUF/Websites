@@ -17,6 +17,14 @@ body {
 	height:0px;
 }
 
+img {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
 /*----------------------------------------------------------------------------------------------------*/
 
 @font-face {
@@ -265,7 +273,7 @@ article {
 
 .slide {
   	width: calc(100% / 5);
-  	height:700px;
+  	height:725px;
   	float: left;
   	font-size: 100px;
   	color: black;
@@ -284,7 +292,7 @@ article {
 .slide ul li {
 	display: inline-block;
     list-style-type: none;
-    background-color:brown;
+    background:linear-gradient(gainsboro, white);
     width: 50%;
     float: left;
     height: 100%;
@@ -307,19 +315,19 @@ article {
 }
 
 .slide ul li h2 {
-	font-size:3.6vw;
+	font-size:3.75vw;
 	text-align:center;
 	padding:0;
 	line-height:6vw;
 }
 
 .slide ul li p {
-	font-size:1.3vw;
+	font-size:1.5vw;
     text-align:center;
     font-family:"Lato";
     margin:0 auto;
 	padding:0;
-    width:70%;
+    width:80%;
 	letter-spacing:0.25px;
     line-height:2vw;
 }
@@ -346,7 +354,7 @@ article {
 	font-weight:900;
 	letter-spacing:1px;
 	font-family:"LatoBlack";
-	width:42vw;
+	width:43vw;
 }
 
 .slide h1:nth-child(even) {
@@ -372,9 +380,9 @@ article {
 .btnInfo a {
 	position:absolute;
     width:200px;
-    height:38px;
-	line-height:38px;
-    border: 3px solid #000;
+    height:35px;
+	line-height:37px;
+    border:3px solid #000;
     border-radius: 8px;
     cursor: pointer;
     vertical-align: middle;
@@ -389,7 +397,7 @@ article {
     padding:5px 0px 5px 0px;
     text-align: center;
 	top:135px;
-    transition: 0.3s ease-in-out;
+    transition:0.3s ease-in-out;
 	z-index:1;
 }
 
@@ -402,16 +410,7 @@ article {
 	width:100%;
 	height:100%;
 	position: relative;
-	background: 
-    linear-gradient(
-    	145deg,
-		rgba(100,70,135,0.75) 0%,
-		rgba(35,135,170,0.75) 100%
-    ),
-    url(Images/Pics/clouds.png);
-	background-position:center;
-    background-size:cover;
-	background-attachment:fixed;
+	background:linear-gradient(gainsboro, white);
 }
 
 .slideimg img {
@@ -534,8 +533,7 @@ article {
 
 .process {
 	width:100%; 
-	height:650px; 
-	background-color:#5797DE;
+	height:650px;
 }
 
 .innerprocess {
@@ -543,82 +541,11 @@ article {
 	width:inherit;
 }
 
-.process ul {
-	width:100%;
-	height:100%;
+.innerprocess img {
+	width:80%;
+	left:50%;
 	position:relative;
-	list-style-type:none;
-	margin:0 auto;
-	padding:0;
-    display:inline-flex;
-}
-
-.process ul li:nth-child(1) {
-	margin:0 auto;
-	width:55%;
-}
-
-.process ul li:nth-child(2) {
-	margin:0 auto;
-	width:40%;
-	padding-right:5.5vw;
-}
-
-.process img {
-	height:auto;
-    width:420px;
-    position: relative;
-    left:60%;
-    top:50%;
-    transform: translate(-50%, -50%);
-	-webkit-animation-name:dropside;
-    -webkit-animation-duration:0.5s;
-    animation-name:dropside;
-    animation-duration:0.5s;
-}
-
-.process table {
-	position:relative;
-	width:100%;
-    left:45%;
-    top:50%;
-    transform:translate(-50%, -50%);
-	font-family:"Lato";
-	color:#fff;
-}
-
-.process th {
-	font-size:34px;
-	padding:0px 0px 25px 5px;
-}
-
-.process td img {
-	width:25px;
-	height:25px;
-	top:0%;
-	transform:translate(-50%, -75%); 
-	padding:0px 5px 0px 5px;
-}
-
-.process td span {
-	font-family:"LatoBlack";
-	letter-spacing:1.5px;
-	padding:0px 0px 3.5px 5px;
-	font-size:20px;
-}
-
-.process td p {
-	letter-spacing:1px;
-	margin:0 auto;
-	padding:3.5px 100px 15px 5px;
-}
-
-.process table, th, td {
-    border-collapse: collapse;
-}
-
-.process th, td {
-    text-align: left;    
+    transform:translate(-50%, 0%);
 }
 
 .button {
@@ -630,11 +557,6 @@ article {
 	color:transparent;
   	cursor:pointer;
 	transition:.3s ease-in-out;
-  	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
-	user-select: none;
 }
 
 .button:hover {
@@ -1400,27 +1322,34 @@ nav input[type=text] {
 /*-------------------------------------------------*/
 
 .btnInfo a {
-	position:absolute;
-    width:200px;
-    height:38px;
-	line-height:38px;
+	position: absolute;
+    width:22.5vw;
+    height:4vw;
+    line-height:4vw;
     border: 3px solid #000;
     border-radius: 8px;
     cursor: pointer;
     vertical-align: middle;
-    left:50%;
-	transform:translate(-50%, 0%);
+    left: 50%;
+    transform: translate(-50%, 0%);
     font-family: "LatoBlack";
     font-weight: bolder;
-	color:#000;
-	text-decoration:none;
-    font-size:20px;
-	letter-spacing:2.5px;
-    padding:5px 0px 5px 0px;
+    color: #000;
+    text-decoration: none;
+    font-size: 2.25vw;
+    letter-spacing:2.5px;
+    padding: 5px 0px 5px 0px;
     text-align: center;
-	top:210px;
+    top:210px;
     transition: 0.3s ease-in-out;
-	z-index:1;
+    z-index: 1;
+}
+	
+.btnInfo {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    top: 25vw;
 }
 
 .information {
@@ -1464,6 +1393,19 @@ nav input[type=text] {
 
 .information ul li ul li .btnInfo {
 	height:15%;
+}
+
+.slide {
+  	height:550px;
+}
+	
+.slide h1:nth-child(odd) {
+    font-size:5vw;
+    width:80vw;
+}
+
+.slide:nth-child(2) ul li .btnInfo {
+    top:-185px;
 }
 	
 .process table {
@@ -2076,25 +2018,79 @@ a.article, a.article:hover {
 }
 
 .slide {
-  	height:800px;
+  	height:550px;
 }
 
 .slide h1 span {
 	font-size:16px;
 }
-
-.slide h1:nth-child(odd) {
-	top:130px;
-	transform:translate(0%, 130px);
-	position:absolute;
-	line-height:110%;
-	text-align:center;
-	font-size:45px;
-	font-weight:900;
-	font-family:"LatoBlack";
-	width:75vw;
+	
+.slide ul li h2 {
+    font-size:9vw;
+	top:50%;
+	line-height:20px;
+	transform: translate(0%, -30%);
+}
+	
+.slide ul li p {
+    font-size: 22px;
+    top: 50%;
+    line-height: 30px;
+    transform: translate(0%, 25%);
+}
+	
+.slide ul li div {
+    top:50%;
+    transform: translate(0%, -125px);
 }
 
+.slide:nth-child(2) ul li .btnInfo {
+    top:-50vw;
+}
+	
+.slide h1:nth-child(odd) {
+	font-size:5vw;
+	font-weight:900;
+	font-family:"LatoBlack";
+	width:45vw;
+}
+	
+.slide .btnInfo:nth-child(even) a {
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    top: 35vh;
+}
+
+.slide .btnInfo:nth-child(odd) a {
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    letter-spacing: 2.5px;
+    top:95vw;
+}
+
+.slide ul li {
+    width:100%;
+    height:50%;
+}
+
+.slide ul li:nth-child(1) {
+    background:gainsboro;
+}
+
+.slide ul li:nth-child(2) {
+    background:linear-gradient(gainsboro, white);
+}
+	
+.slide ul li img {
+    width: 50vw;
+    transform: translate(-50%, -50%);
+}
+	
 .information {
 	height:150vw;
 }

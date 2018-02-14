@@ -10,6 +10,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<meta name="description" content="Välkommen till WebCreator! Vår service kommer att tillåta dig skapa en helt unik hemsida, skräddarsydd efter eget självtycke.">
 <title>WebCreator - Skapa Din Hemsida Idag</title>
 </head>
 
@@ -105,9 +106,11 @@
 										<img src="Images/Icons/code.png" />
 									</li>
 									<li>
-										<h2>WEB CREATOR 2.0</h2>
-										<p>Här på Web Creator bygger vi din drömmsida, skräddarsydd efter di eget tycke. Kolla gärna på vad vi gör.</p>
-										<div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
+										<div>
+											<h2>WEB CREATOR 2.0</h2>
+											<p>Här på Web Creator bygger vi din drömmsida, skräddarsydd efter di eget tycke. Kolla gärna på vad vi gör.</p>
+											<div class="btnInfo"><a href="Info.php">LÄS OM OSS</a></div>
+										</div>
 									</li>
 								</ul>
                             </div>
@@ -138,45 +141,10 @@
                         </ul>
                     </div>
                 </div>
+				<hr style="width:60%; border:solid 1px rgba(0,0,0,0.125)">
 				<div class="process">
                 	<div class="innerprocess">
-                    	<ul>
-                        	<li>
-                            	<img src="Images/Pics/pad.png">
-                            </li>
-                            <li>
-                            	<table>
-                                  <tr>
-                                    <th colspan="2">Från ideé till webbsida</th>
-                                  </tr>
-                                  <tr>
-                                    <td><img src="Images/Social/phone.png"></td>
-                                    <td>
-                                    	<span>Planering</span>
-                                        <br>
-                                        <p>Processen börjar med ett möte. På det mötet kommer du att förklara hur du vill att din webbsida ska se ut, och vi börjar sen skissa.</p>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td><img src="Images/Social/gears.png"></td>
-                                    <td>
-                                    	<span>Arbete</span>
-                                        <br>
-                                        <p>När vi har fått all information och skissen har blivigt godkänd börjar vi bygga din webbsida från grunden så att allt blit precis som du vill ha det.</p>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td><img src="Images/Social/party.png"></td>
-                                    <td>
-                                    	<span>Enjoy</span>
-                                        <br>
-                                        <p>När webbsidan är färdig är det bara att njuta!
-                                        </p>
-                                    </td>
-                                  </tr>
-                                </table>
-                            </li>
-                        </ul>
+                    	<img src="Images/Pics/process.png">
                     </div>
 				</div>
 			</div>

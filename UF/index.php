@@ -143,9 +143,29 @@
                 </div>
 				<hr style="width:60%; border:solid 1px rgba(0,0,0,0.125)">
 				<div class="process">
-                	<div class="innerprocess">
-                    	<img src="Images/Pics/process.png">
-                    </div>
+                	<ul>
+						<li>
+							<img src="Images/Social/phone.png" />
+							<div>
+								<h2>PLANERING</h2>
+								<p>Processen börjar med ett möte. På det mötet kommer du att förklara hur du vill att din webbsida ska se ut, och vi börjar sen skissa.</p>
+							</div>
+						</li>
+						<li>
+							<img src="Images/Social/phone.png" />
+							<div>
+								<h2>ARBETE</h2>
+								<p>När vi har fått all information och skissen har blivigt godkänd börjar vi bygga din webbsida från grunden så att allt blit precis som du vill ha det.</p>
+							</div>
+						</li>
+						<li>
+							<img src="Images/Social/phone.png" />
+							<div>
+								<h2>BETALNING</h2>
+								<p>När webbsidan är färdig är det bara att betala och njuta!</p>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
             <script type="text/javascript" src="script.js"></script>

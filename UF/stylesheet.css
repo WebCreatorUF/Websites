@@ -534,18 +534,43 @@ article {
 .process {
 	width:100%; 
 	height:650px;
+	overflow: hidden;
 }
 
-.innerprocess {
-	height:inherit;
+.process ul {
 	width:inherit;
+	height:550px;
+	list-style-type: none;
+	text-align: center;
+	top:50%;
+	position: relative;
+	transform: translate(0%, -50%);
+	padding:0;
 }
 
-.innerprocess img {
-	width:80%;
-	left:50%;
-	position:relative;
-    transform:translate(-50%, 0%);
+.process ul li {
+	width:19vw;
+	height:auto;
+	display:inline-block;
+	padding:0px 5vw;
+	vertical-align: top;
+}
+
+.process ul li div {
+	
+}
+
+.process ul li div h2 {
+	font-size: 30px;
+}
+
+.process ul li div p {
+	font-size: 20px;
+	letter-spacing: 0.25px;
+	font-family: "Lato";
+	line-height: 30px;
+	color:#767676;
+	font-weight: 300;
 }
 
 .button {
@@ -557,10 +582,15 @@ article {
 	color:transparent;
   	cursor:pointer;
 	transition:.3s ease-in-out;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 .button:hover {
-	 color:#fff;
+	 color:#646464;
 }
 
 .prev {
@@ -1407,51 +1437,6 @@ nav input[type=text] {
 .slide:nth-child(2) ul li .btnInfo {
     top:-185px;
 }
-	
-.process table {
-	position:relative;
-	width: 100%;
-    left:45%;
-    top:50%;
-    transform:translate(-50%, -50%);
-	font-family:"Lato";
-	color:#fff;
-}
-	
-.process li:nth-child(1) img {
-	display:none;	
-}
-	
-.process ul li:nth-child(2) {
-	width:100%;		
-}
-	
-.process th {
-	font-size:3.5vw;
-	padding:0px 0px 25px 5px;
-}
-
-.process td img {
-	width:2.5vw;
-	height:2.5vw;
-	top:0%;
-	transform:translate(-50%, -75%); 
-	padding:0px 5px 0px 5px;
-}
-
-.process td span {
-	font-family:"LatoBlack";
-	letter-spacing:1.5px;
-	padding:0px 0px 3.5px 5px;
-	font-size:2.5vw;
-}
-
-.process td p {
-	letter-spacing:1px;
-	margin:0 auto;
-	font-size:1.75vw;
-	padding:3.5px 100px 15px 5px;
-}
 
 .innerinfo li img {
 	width:35vw;
@@ -2157,39 +2142,7 @@ a.article, a.article:hover {
 	left:50%;
 	transform:translate(-50%, 0%);
 }
-	
-.process table {
-	width:150%;
-	left:50%;
-	transform: translate(-47.5%, -50%);
-}
-	
-.process th {
-	font-size:5.5vw;
-	padding:0px 0px 25px 5px;
-}
 
-.process td img {
-	width:3.5vw;
-	height:3.5vw;
-	top:0%;
-	transform:translate(-50%, -75%); 
-	padding:0px 5px 0px 5px;
-}
-
-.process td span {
-	font-family:"LatoBlack";
-	letter-spacing:1.5px;
-	padding:0px 0px 3.5px 5px;
-	font-size:4vw;
-}
-
-.process td p {
-	letter-spacing:1px;
-	margin:0 auto;
-	font-size:3.25vw;
-	padding:3.5px 100px 15px 5px;
-}
 /*---------------------------------------------------*/
 
 footer {

@@ -37,15 +37,16 @@ img {
 
 header {
 	width: 100%;
-	height:100px;
+	height:115px;
 	background-color: aqua;
 }
 
 header .header_container {
-	width: 80em;
-	height: 100px;
+	width: 80%;
+	height:115px;
 	margin: 0 auto;
 	position: relative;
+	overflow: hidden;
 	background-color:coral;
 }
 
@@ -55,21 +56,28 @@ header ul {
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
+	text-align: center;
     top: 50%;
     transform: translate(0%, -50%);
 }
 
 header ul li {
 	display: inline-block;
-	position: relative;
-	top:42.5%;
-	left:7.5%;
-	padding: 0px 25px;
-	width: auto;
-	height: auto;
+	padding: 0px 10px;
 }
 
-header ul li a {
+header ul li ul {
+	top: 50%;
+    transform: translate(0%);
+}
+
+header ul li ul li {
+	width: auto;
+	height: auto;
+	padding: 0px 25px;
+}
+
+header ul li ul li a {
 	font-size: 15px;
 	font-family: "Lato";
 	font-weight: 500;
@@ -88,8 +96,8 @@ header ul li img {
 nav {
 	width: 100%;
 	height: 60px;
+	background-color:darkgreen;
 	display: none;
-	
 }
 
 nav .nav_container {
@@ -105,6 +113,8 @@ nav ul {
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
+	text-align: center;
+	background-color:cornflowerblue;
 }
 
 nav ul li {
@@ -133,6 +143,71 @@ nav ul li img {
 
 /*------------------------------PHONE---------------------------------*/
 
-@media only screen and (max-width: 80em) {
+@media screen and (max-width: 1000px) {
+
+header {
+	width: 100%;
+	height:150px;
+	background-color: aqua;
+}
+
+header .header_container {
+	width: 80%;
+	height:150px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background-color:coral;
+}
+
+header ul {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	text-align: center;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+header ul li {
+	display: inline-block;
+	padding: 0px 10px;
+	width:-webkit-fill-available;
+}
+	
+header ul li:nth-child(2n) {
+	padding: 10px 25px 0px 25px;
+}
+
+header ul li ul {
+	top: 50%;
+    transform: translate(0%);
+}
+
+header ul li ul li {
+	width: auto;
+	height: auto;
+	padding: 0px 25px;
+}
+
+header ul li ul li a {
+	font-size: 15px;
+	font-family: "Lato";
+	font-weight: 500;
+	text-decoration: none;
+	color: #767676;
+	letter-spacing: 0.25px;
+}
+
+header ul li img {
+	width:250px;
+	height:auto;
+}
+	
+}
+
+@media only screen and (max-width: 750px) {
 	
 }

@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 body {
 	margin: 0;
@@ -200,12 +199,12 @@ header ul li ul li {
 
 header {
 	width: 100%;
-	height:115px;
+	height:100px;
 }
 
 header .header_container {
 	width: 80%;
-	height:115px;
+	height:100px;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
@@ -243,7 +242,7 @@ header ul li img {
 	height:60px;
 	position:absolute;
 	z-index:100;
-	top:12px;
+	top:35px;
 	left:10px;
 	-webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -277,7 +276,7 @@ header ul li img {
     text-align:center;
     background:transparent;
     position:absolute;
-    top:12.5px;
+    top:35px;
     left:7.5px;
     cursor:pointer;
 	font-size:24px;
@@ -318,8 +317,8 @@ header ul li img {
     background:#FFF;
 	text-align: center;
 	width:100%;
-	height:60px;
-	box-shadow:0 -62.5px 20px 54px black;
+	height:100px;
+	border-bottom:solid 1px #000; 
 }
 
 #sidebar .sidebar-list p {
@@ -394,10 +393,6 @@ a.article, a.article:hover {
     color: #fff !important;
 }
 
-
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
 #content {
     width:100%;
     padding:20px;

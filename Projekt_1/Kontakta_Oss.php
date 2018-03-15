@@ -65,26 +65,7 @@
 			<article></article>
 			<footer>
 				<div class="footer_container">
-                	<ul>
-                        <li>
-                        	<div class="social">
-                                <ul>
-                                    <li>
-                                    	<a href="#"><img src="Bilder/Social/facebook.png" alt="facebook"></a>
-                                    </li>
-                                    <li>
-                                    	<a href="#"><img src="Bilder/Social/instagram.png" alt="instagram"></a>
-                                    </li>
-                                    <li>
-                                    	<a href="#"><img src="Bilder/Social/google.png" alt="googleplus"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <p>© 1973-2018, AB Skåne Lås</p>
-                        </li>
-                    </ul>
+					<p>© COPYRIGHT 1973-2018, AB SKÅNE LÅS</p>
 				</div>
 			</footer>
 		</div>

@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	background-color: #FFF;
 }
 
 #container {
@@ -24,6 +25,18 @@ img {
 	-o-user-select: none;
 	user-select: none;
 }
+
+#googleMap {
+	width:100%;
+	height:650px;
+}
+
+#content {
+    width: 20vw;
+	height: 8vw;
+	padding: 0;
+	margin: 0;
+}	
 
 /*-----------------------FONT--------------------------*/
 
@@ -48,8 +61,10 @@ header .header_container {
 	width: 100%;
 	height:65px;
 	margin: 0 auto;
-	position: relative;
-	overflow: hidden;
+	position: fixed;
+	background-color: #FFF;
+	border-bottom:1px solid #CCC;
+	z-index: 10;
 }
 
 header ul {
@@ -109,7 +124,53 @@ header ul li img {
 	width:165px;
 	height:auto;
 }
+/*------------------------------ARTICLE---------------------------------*/
 
+article {
+	width: 100%;
+	height: 100%;
+}
+
+article .article_container{
+	width: 100%;
+	height: 100%;
+}
+
+article h1 {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family:"Lato";
+	font-weight: 300;
+	font-size: 35px;
+	margin: 50px auto;
+}
+
+article ul {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding: 0;
+	margin: 50px auto;
+	font-size:0;
+	text-align:center;
+}
+
+article ul li {
+	display:inline-block;
+	background-color:#973B3C;
+	margin: 0 15px;
+	height: 650px;
+	position:relative;
+}
+
+article ul li:nth-child(1) {
+	width: 300px;
+}
+
+article ul li:nth-child(2) {
+	width: 500px;
+}
 
 /*------------------------------FOOTER---------------------------------*/
 
@@ -161,7 +222,7 @@ footer ul li .social {
 }
 
 .social ul li img {
-	width:50px;
+	width:45px;
 	height:auto;
 	vertical-align:middle;
 }
@@ -186,13 +247,14 @@ footer p {
 header {
 	width: 100%;
 	height:65px;
+	border-bottom:1px solid #CCC;
 }
 
 header .header_container {
-	width: 80%;
+	width: 100%;
 	height:65px;
 	margin: 0 auto;
-	position: relative;
+	position: fixed;
 	overflow: hidden;
 }
 

@@ -7,7 +7,8 @@
 		<link rel="shortcut icon" type="image/x-icon" href="Bilder/Logos/icon_logo.ico">
 		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Välkommen till AB Skåne lås! Vi är en komplett låsservicefirma som hjälper dig att låsa upp dina problem, vi arbetar i Ystad, Sjöbo, Simrishamn med mera.">
 	</head>
@@ -46,7 +47,10 @@
 						<li>
 							<ul>
 								<li>
-									<a href="index.html" style="font-weight: bolder; color: #e94335; font-size: 16px;">Hem</a>
+									<a href="index.html">Hem</a>
+								</li>
+								<li>
+									<a href="Kontakta_Oss.php" style="font-weight: bolder; color: #e94335; font-size: 16px;">Kontakta oss</a>
 								</li>
 								<li>
 									<a href="#">Kvalitet och Miljö</a>
@@ -54,18 +58,47 @@
 								<li>
 									<a href="#">Om oss</a>
 								</li>
-								<li>
-									<a href="#">Kontakta oss</a>
-								</li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 			</header>
-			<article></article>
+			<article>
+            	<div class="article_container">
+                	<h1>Kontakta Oss</h1>
+                    <ul>
+                    	<li></li>
+                        <li>
+                            <div class="googleMap">
+                            	<div id="googleMap"></div>
+                            </div>
+                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqF8mxr2UUJgzOXk-BSoZi0a3_EqS3gaE&callback=myMap"></script>
+                        </li>
+                    </ul>
+                </div>
+            </article>
 			<footer>
 				<div class="footer_container">
-					<p>© COPYRIGHT 1973-2018, AB SKÅNE LÅS</p>
+                	<ul>
+                        <li>
+                        	<div class="social">
+                                <ul>
+                                    <li>
+                                    	<a href="#"><img src="Bilder/Social/facebook.png" alt="facebook"></a>
+                                    </li>
+                                    <li>
+                                    	<a href="#"><img src="Bilder/Social/instagram.png" alt="instagram"></a>
+                                    </li>
+                                    <li>
+                                    	<a href="#"><img src="Bilder/Social/google.png" alt="googleplus"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <p>© 1973-2018, AB Skåne Lås</p>
+                        </li>
+                    </ul>
 				</div>
 			</footer>
 		</div>

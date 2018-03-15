@@ -67,7 +67,16 @@
             	<div class="article_container">
                 	<h1>Kontakta Oss</h1>
                     <ul>
-                    	<li></li>
+                    	<li>
+                        	<ul>
+                            	<li>
+                                </li>
+                                <li>
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
+                        </li>
                         <li>
                             <div class="googleMap">
                             	<div id="googleMap"></div>

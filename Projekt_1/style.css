@@ -158,9 +158,9 @@ article ul {
 
 article ul li {
 	display:inline-block;
-	background-color:#973B3C;
 	margin: 0 15px;
 	height: 650px;
+	background-color: #F8F8F8;
 	position:relative;
 }
 

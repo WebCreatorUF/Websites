@@ -74,7 +74,7 @@
                                 </li>
                                 <li>
 									<h2>Koppargatan 28</h2>
-									<p>j fhf ohfuhsdui fhsudfhu sdh fuisdh fuihsd fuih sdui fhsdfh uisdhfuis dhfui</p>
+									<p>Detta är den första samt en av flera butiker vi har i Skåne. Vi befinner oss vid Koppargatan 28, 271 39 i Ystad. Besök oss gärna!</p>
                                 </li>
                                 <li>
 									<b><p>Telefon:</p></b>
@@ -85,7 +85,7 @@
 									<p>Jun-Aug&ensp;07:00 - 16:00</p>
 									<p>Sep-Maj&ensp;08:00 - 17:00</p>
 									<p>Lunch&ensp;12:30 - 13:30</p>
-									<p>Helg&ensp;<b>Stängt</b></p>
+									<p>Helger&ensp;<b>Stängt</b></p>
                                 </li>
                             </ul>
                         </li>
@@ -96,6 +96,9 @@
                             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqF8mxr2UUJgzOXk-BSoZi0a3_EqS3gaE&callback=myMap"></script>
                         </li>
                     </ul>
+					<div class="email">
+						a
+					</div>
                 </div>
             </article>
 			<footer>

@@ -204,6 +204,7 @@ article ul li:nth-child(1) ul li:nth-child(2) {
 article ul li:nth-child(1) ul li:nth-child(2) h2 {
 	font-size: 30px;
 	font-weight: 300;
+	letter-spacing: 0.5px;
 }
 
 article ul li:nth-child(1) ul li:nth-child(2) p {
@@ -212,6 +213,7 @@ article ul li:nth-child(1) ul li:nth-child(2) p {
 	margin: 0 auto;
 	line-height: 20px;
 	color: #747474;
+	letter-spacing: 0.25px;
 }
 
 article ul li:nth-child(1) ul li:nth-child(3) {
@@ -221,12 +223,14 @@ article ul li:nth-child(1) ul li:nth-child(3) {
 article ul li:nth-child(1) ul li:nth-child(3) p:nth-child(1) {
 	color: #000;
 	font-size: 15px;
+	letter-spacing: 0.5px;
 }
 
 article ul li:nth-child(1) ul li:nth-child(3) p {
 	font-size: 13px;
 	margin: 6.5px auto;
 	color: #747474;
+	letter-spacing: 0.25px;
 }
 
 article ul li:nth-child(1) ul li:nth-child(4) {
@@ -236,12 +240,14 @@ article ul li:nth-child(1) ul li:nth-child(4) {
 article ul li:nth-child(1) ul li:nth-child(4) p:nth-child(1) {
 	color: #000;
 	font-size: 15px;
+	letter-spacing: 0.5px;
 }
 
 article ul li:nth-child(1) ul li:nth-child(4) p {
 	font-size: 13px;
 	margin: 6.5px auto;
 	color: #747474;
+	letter-spacing: 0.25px;
 }
 
 .email {
@@ -249,9 +255,40 @@ article ul li:nth-child(1) ul li:nth-child(4) p {
 	height: 500px;
 	position: relative;
 	margin: 15px auto 30px auto;
-	background-color: #000;
-	
+	background-color: #F8F8F8;
 }
+
+.email ul {
+	height: 100%;
+	width: 100%;
+	margin: 30px auto;
+	padding: 0;
+}
+
+.email ul li {
+	height: auto;
+	width: 100%;
+	margin: 20px auto;
+	display: block;
+}
+
+input.textcont, textarea {
+	font-size:15px;
+	letter-spacing:0.5px;
+	font-family:"Lato";
+	display:block;
+	position:relative;
+	background:rgba(0, 0, 0, 0.025);
+	width:250px;
+	margin: 15px auto;
+	padding-left:10px;
+	height:30px;
+	border:0;
+	outline:none;
+	resize: none;
+	border-bottom:solid 2px rgba(0, 0, 0, 0.125);
+}
+
 
 
 /*------------------------------FOOTER---------------------------------*/

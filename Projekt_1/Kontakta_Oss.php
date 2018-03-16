@@ -97,7 +97,56 @@
                         </li>
                     </ul>
 					<div class="email">
-						a
+<?php
+$name = $_POST['name'];
+$lastname = $_POST['lastname'];
+$email = $_POST['email'];
+$comments = $_POST['comments'];
+
+$message = <<<EMAIL
+
+Medelande från: $lastname, $name.
+
+Skickat från: $email.
+
+$comments
+
+EMAIL;
+				
+$to = 'webcreator.help@hotmail.com';
+$subject ='Nytt medelande - Kund';
+
+if($_POST) {
+	mail ($to, $subject, $message);
+	$feedback = 'Ditt medelande har skickats!';
+}
+?>
+						<form action="?" method="post"> 
+							<ul>
+								<li>
+									<label for="name"></label>
+									<input type="text" class="textcont" placeholder="Namn" id="name" name="name" required pattern="[a-zA-2] {2,15}$" />
+								</li>
+								<li>
+									<label for="lastname"></label>
+									<input type="text" class="textcont" placeholder="Efternamn" id="lastname" name="lastname" required pattern="[a-zA-2] {2,15}$" />
+								</li>
+								<li>
+									<label for="email"></label>
+									<input type="text" class="textcont" placeholder="E-mail" id="email" name="email" />
+								</li>
+								<li>
+									<label for="comments"></label>
+									<textarea name="comments" id="comments" placeholder="Medelande" reqired pattern="" rows="10" cols="20"></textarea>
+								</li>
+								<br />
+								<li>
+									<div>
+										<input type="submit" name="submit" value="SKICKA" />
+									</div>
+								</li>
+							</ul>
+						</form>
 					</div>
                 </div>
             </article>

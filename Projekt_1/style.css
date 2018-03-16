@@ -172,6 +172,78 @@ article ul li:nth-child(2) {
 	width: 500px;
 }
 
+article ul li:nth-child(1) ul {
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+	float: left;
+}
+
+article ul li:nth-child(1) ul li {
+	width:100%;
+	margin: 0 auto;
+}
+
+article ul li:nth-child(1) ul li h2, p {
+	font-family: "Lato";
+}
+
+article ul li:nth-child(1) ul li:nth-child(1) {
+	height: 30%;
+}
+
+article ul li:nth-child(1) ul li:nth-child(1) img {
+	width: 100%;
+	height: 100%;
+}
+
+article ul li:nth-child(1) ul li:nth-child(2) {
+	height: 30%;
+}
+
+article ul li:nth-child(1) ul li:nth-child(2) h2 {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+article ul li:nth-child(1) ul li:nth-child(2) p {
+	font-size: 13px;
+	width:80%;
+	margin: 0 auto;
+	color: #747474;
+}
+
+article ul li:nth-child(1) ul li:nth-child(3) {
+	height: 10%;
+}
+
+article ul li:nth-child(1) ul li:nth-child(3) p:nth-child(1) {
+	color: #000;
+	font-size: 15px;
+}
+
+article ul li:nth-child(1) ul li:nth-child(3) p {
+	font-size: 13px;
+	margin: 6.5px auto;
+	color: #747474;
+}
+
+article ul li:nth-child(1) ul li:nth-child(4) {
+	height: 30%;
+}
+
+article ul li:nth-child(1) ul li:nth-child(4) p:nth-child(1) {
+	color: #000;
+	font-size: 15px;
+}
+
+article ul li:nth-child(1) ul li:nth-child(4) p {
+	font-size: 13px;
+	margin: 6.5px auto;
+	color: #747474;
+}
+
+
 /*------------------------------FOOTER---------------------------------*/
 
 footer {

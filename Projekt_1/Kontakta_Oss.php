@@ -70,10 +70,22 @@
                     	<li>
                         	<ul>
                             	<li>
+									<img src="Bilder/Other/1.png" alt="shop">
                                 </li>
                                 <li>
+									<h2>Koppargatan 28</h2>
+									<p>j fhf ohfuhsdui fhsudfhu sdh fuisdh fuihsd fuih sdui fhsdfh uisdhfuis dhfui</p>
                                 </li>
                                 <li>
+									<b><p>Telefon:</p></b>
+									<p>0411-55 51 10</p>
+                                </li>
+								<li>
+									<b><p>Öppetider:</p></b>
+									<p>Jun-Aug&ensp;07:00 - 16:00</p>
+									<p>Sep-Maj&ensp;08:00 - 17:00</p>
+									<p>Lunch&ensp;12:30 - 13:30</p>
+									<p>Helg&ensp;<b>Stängt</b></p>
                                 </li>
                             </ul>
                         </li>

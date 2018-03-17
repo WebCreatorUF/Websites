@@ -15,6 +15,7 @@
 	
 	<body>
 		<div class="container">
+        <div id="btnReturn"></div>
 			<div class="wrappercontainer">
 				<div class="wrapper">
 					<div id="sidebar">
@@ -139,7 +140,7 @@ if($_POST) {
 									<label for="comments"></label>
 									<textarea name="comments" id="comments" placeholder="Medelande" reqired pattern="" rows="10" cols="20"></textarea>
 								</li>
-								<br />
+								<br/>
 								<li>
 									<div>
 										<input type="submit" name="submit" value="SKICKA" />

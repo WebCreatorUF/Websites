@@ -60,3 +60,17 @@ function myMap() {
     	infowindow.open(map, marker);
     });		
 }
+
+// ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 250) {        // If page is scrolled more than 250px
+        $('#btnReturn').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#btnReturn').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#btnReturn').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});

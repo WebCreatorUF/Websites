@@ -57,6 +57,16 @@ img {
 	background-color:#e94335;
 }
 
+#rem_cha {
+	font-family:"Lato";
+	color:#747474;
+	font-size:12px;
+	letter-spacing:0.25px;
+	top:67%;
+	left:72%;
+	position:absolute;
+}
+
 /*-----------------------FONT--------------------------*/
 
 @font-face {
@@ -298,7 +308,7 @@ form input.textcont {
 	background:rgba(0, 0, 0, 0.025);
 	width:450px;
 	margin: 10px auto;
-	padding-left: 10px;
+	padding: 0px 10px 0px 10px;
 	height:30px;
 	outline:none;
 	border:solid 2px rgba(0, 0, 0, 0.125);
@@ -312,8 +322,8 @@ form textarea {
 	position:relative;
 	background:rgba(0, 0, 0, 0.025);
 	width:450px;
-	margin: 15px auto;
-	padding: 5px 0px 0px 10px;
+	margin: 10px auto;
+	padding: 5px 10px 15px 10px;
 	height:90px;
 	outline:none;
 	resize: none;
@@ -330,7 +340,7 @@ input[type=submit] {
     font-size: 19px;
     font-family: "Lato";
 	position:relative;
-	margin:15px;
+	margin:20px;
     letter-spacing: .5px;	
 	transition: .25s ease-in-out;
 }

@@ -126,19 +126,19 @@ if($_POST) {
 							<ul>
 								<li>
 									<label for="name"></label>
-									<input type="text" class="textcont" placeholder="Namn" id="name" name="name" required pattern="[a-zA-2] {2,15}$" />
+									<input type="text" class="textcont" placeholder="Namn" id="name" name="name" minlength="2" maxlength="25" required pattern="[a-zA-2] {2,25}$" />
 								</li>
 								<li>
 									<label for="lastname"></label>
-									<input type="text" class="textcont" placeholder="Efternamn" id="lastname" name="lastname" required pattern="[a-zA-2] {2,15}$" />
+									<input type="text" class="textcont" placeholder="Efternamn" id="lastname" name="lastname" minlength="2" maxlength="25" required pattern="[a-zA-2] {2,25}$" />
 								</li>
 								<li>
 									<label for="email"></label>
-									<input type="text" class="textcont" placeholder="E-mail" id="email" name="email" />
+									<input type="text" class="textcont" placeholder="E-mail" id="email" name="email" minlength="5" maxlength="50" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
 								</li>
 								<li>
 									<label for="comments"></label>
-									<textarea name="comments" id="comments" placeholder="Medelande" reqired pattern="" rows="10" cols="20"></textarea>
+									<textarea name="comments" id="comments" placeholder="Medelande" minlength="1" maxlength="500" rows="10" cols="20"></textarea>
 								</li>
 								<br/>
 								<li>
@@ -147,6 +147,7 @@ if($_POST) {
 									</div>
 								</li>
 							</ul>
+                            <div id="rem_cha"></div>
 						</form>
 					</div>
                 </div>
@@ -165,7 +166,7 @@ if($_POST) {
                                     </li>
                                     <li>
                                     	<a href="#"><img src="Bilder/Social/google.png" alt="googleplus"></a>
-                                    </li>
+                                    </li>              
                                 </ul>
                             </div>
                         </li>

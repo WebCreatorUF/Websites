@@ -300,7 +300,6 @@ form input.textcont {
 	margin: 10px auto;
 	padding-left: 10px;
 	height:30px;
-	border:0;
 	outline:none;
 	border:solid 2px rgba(0, 0, 0, 0.125);
 }
@@ -316,7 +315,6 @@ form textarea {
 	margin: 15px auto;
 	padding: 5px 0px 0px 10px;
 	height:90px;
-	border:0;
 	outline:none;
 	resize: none;
 	border:solid 2px rgba(0, 0, 0, 0.125);
@@ -399,8 +397,8 @@ footer ul li .social {
 }
 
 .social ul li img:hover {
-	-webkit-filter: opacity(.65);
-  	filter: opacity(.65);
+	-webkit-filter: opacity(.5);
+  	filter: opacity(.5);
 }
 
 footer p {

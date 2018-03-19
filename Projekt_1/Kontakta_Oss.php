@@ -26,10 +26,10 @@
 							<a href="index.html"><img src="Bilder/Logos/logo_text.png" alt="logo"></a>
 						</div>
 						<ul class="sidebar-list components">
-							<p><a href="#">Hem</a></p>
+							<p><a href="index.html">Hem</a></p>
 							<p><a href="#">Kvalitet och Miljö</a></p>
-							<p><a href="#">Om oss</a></p>
-							<p><a href="#">Kontakta oss</a></p>
+							<p><a href="Om_oss.html">Om oss</a></p>
+							<p><a href="Kontakta_Oss.php">Kontakta oss</a></p>
 						</ul>
 					</div>
 					<div class="navbar-header">
@@ -57,7 +57,7 @@
 									<a href="#">Kvalitet och Miljö</a>
 								</li>
 								<li>
-									<a href="#">Om oss</a>
+									<a href="Om_oss.html">Om oss</a>
 								</li>
 							</ul>
 						</li>
@@ -154,26 +154,7 @@ if($_POST) {
             </article>
 			<footer>
 				<div class="footer_container">
-                	<ul>
-                        <li>
-                        	<div class="social">
-                                <ul>
-                                    <li>
-                                    	<a href="#"><img src="Bilder/Social/facebook.png" alt="facebook"></a>
-                                    </li>
-                                    <li>
-                                    	<a href="#"><img src="Bilder/Social/instagram.png" alt="instagram"></a>
-                                    </li>
-                                    <li>
-                                    	<a href="#"><img src="Bilder/Social/google.png" alt="googleplus"></a>
-                                    </li>              
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <p>© 1973-2018, AB Skåne Lås</p>
-                        </li>
-                    </ul>
+                	<p>© 1973-2018, AB Skåne Lås</p>
 				</div>
 			</footer>
 		</div>

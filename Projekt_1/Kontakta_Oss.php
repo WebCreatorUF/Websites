@@ -138,7 +138,7 @@ if($_POST) {
 								</li>
 								<li>
 									<label for="comments"></label>
-									<textarea name="comments" id="comments" placeholder="Medelande" minlength="1" maxlength="500" rows="10" cols="20"></textarea>
+									<textarea name="comments" id="comments" placeholder="Medelande" minlength="1" maxlength="500" rows="10" cols="20"></textarea><div id="rem_cha"></div>
 								</li>
 								<br/>
 								<li>
@@ -147,7 +147,7 @@ if($_POST) {
 									</div>
 								</li>
 							</ul>
-                            <div id="rem_cha"></div>
+                            
 						</form>
 					</div>
                 </div>

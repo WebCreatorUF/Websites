@@ -62,8 +62,8 @@ img {
 	color:#747474;
 	font-size:12px;
 	letter-spacing:0.25px;
-	top:67%;
-	left:72%;
+	top:79%;
+	left:86.5%;
 	position:absolute;
 }
 
@@ -335,7 +335,7 @@ input[type=submit] {
     background-color: #e94335;
     border: none;
     padding: 14px 25px;
-    color: white;
+    color: #fff;
     font-weight: bolder;
     font-size: 19px;
     font-family: "Lato";

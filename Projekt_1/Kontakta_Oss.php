@@ -71,7 +71,7 @@
                     	<li>
                         	<ul>
                             	<li>
-									<img src="Bilder/Other/1.png" alt="shop">
+									<img src="Bilder/Other/1.png" class="shopimg" alt="shop">
                                 </li>
                                 <li>
 									<h2>Koppargatan 28</h2>

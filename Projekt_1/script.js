@@ -74,15 +74,3 @@ $('#btnReturn').click(function() {      // When arrow is clicked
         scrollTop : 0                       // Scroll to top of body
     }, 500);
 });
-
-$(document).ready(function() {
-    var text_max = 500;
-    $('#rem_cha').html(text_max + '/500');
-
-    $('#comments').keyup(function() {
-        var text_length = $('#comments').val().length;
-        var text_remaining = text_max - text_length;
-
-        $('#rem_cha').html(text_remaining + '/500');
-    });
-});

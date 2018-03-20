@@ -97,59 +97,6 @@
                             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqF8mxr2UUJgzOXk-BSoZi0a3_EqS3gaE&callback=myMap"></script>
                         </li>
                     </ul>
-					<div class="email">
-<?php
-$name = $_POST['name'];
-$lastname = $_POST['lastname'];
-$email = $_POST['email'];
-$comments = $_POST['comments'];
-
-$message = <<<EMAIL
-
-Medelande från: $lastname, $name.
-
-Skickat från: $email.
-
-$comments
-
-EMAIL;
-				
-$to = 'webcreator.help@hotmail.com';
-$subject ='Nytt medelande - Kund';
-
-if($_POST) {
-	mail ($to, $subject, $message);
-	$feedback = 'Ditt medelande har skickats!';
-}
-?>
-						<form action="?" method="post"> 
-							<ul>
-								<li>
-									<label for="name"></label>
-									<input type="text" class="textcont" placeholder="Namn" id="name" name="name" minlength="2" maxlength="25" required pattern="[a-zA-2] {2,25}$" />
-								</li>
-								<li>
-									<label for="lastname"></label>
-									<input type="text" class="textcont" placeholder="Efternamn" id="lastname" name="lastname" minlength="2" maxlength="25" required pattern="[a-zA-2] {2,25}$" />
-								</li>
-								<li>
-									<label for="email"></label>
-									<input type="text" class="textcont" placeholder="E-mail" id="email" name="email" minlength="5" maxlength="50" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
-								</li>
-								<li>
-									<label for="comments"></label>
-									<textarea name="comments" id="comments" placeholder="Medelande" minlength="1" maxlength="500" rows="10" cols="20"></textarea><div id="rem_cha"></div>
-								</li>
-								<br/>
-								<li>
-									<div>
-										<input type="submit" name="submit" value="SKICKA" />
-									</div>
-								</li>
-							</ul>
-                            
-						</form>
-					</div>
                 </div>
             </article>
 			<footer>

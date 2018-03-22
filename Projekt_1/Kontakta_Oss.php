@@ -77,7 +77,7 @@
                                 </li>
                                 <li>
 									<h2>Koppargatan 28</h2>
-									<p>Vi befinner oss vid Koppargatan 28, 271 39 i Ystad. Vill du maila oss så gör du det på info@skanelas.se</p>
+									<p>Vi befinner oss vid Koppargatan 28, 271 39 i Ystad. Är det bråttom ring oss gärna.</p>
                                 </li>
 								<li>
 									<b><p>E-mail:</p></b>

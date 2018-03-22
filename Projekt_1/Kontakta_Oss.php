@@ -66,7 +66,9 @@
 			</header>
 			<article>
             	<div class="article_container">
-                	<h1>Kontakta Oss</h1>
+					<div class="article_top">
+                		<h1>Kontakta Oss</h1>
+					</div>
                     <ul>
                     	<li>
                         	<ul>
@@ -75,7 +77,11 @@
                                 </li>
                                 <li>
 									<h2>Koppargatan 28</h2>
-									<p>Detta är den första samt en av flera butiker vi har i Skåne. Vi befinner oss vid Koppargatan 28, 271 39 i Ystad. Besök oss gärna!</p>
+									<p>Vi befinner oss vid Koppargatan 28, 271 39 i Ystad. Vill du maila oss så gör du det på info@skanelas.se</p>
+                                </li>
+								<li>
+									<b><p>E-mail:</p></b>
+									<p>info@skanelas.se</p>
                                 </li>
                                 <li>
 									<b><p>Telefon:</p></b>

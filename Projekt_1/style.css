@@ -152,7 +152,7 @@ article .article_container{
 }
 
 .article_top {
-	margin: 50px auto;
+	padding: 50px 0px;
 }
 
 article h1 {
@@ -299,57 +299,59 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
 }
 
 .container_slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: inherit;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: inherit;
 }
 
 .slider-wrapper {
-  width: 40vw;
-  height: 26vw;
-  position:relative;
-  margin:0;
-  overflow: hidden;
+  	width: 470px;
+ 	height: 310px;
+ 	position:relative;
+  	margin:0;
+ 	overflow: hidden;
+	box-shadow: 0px 20px 85px -20px #000;
 }
 
 .inner-wrapper {
-  width: 500%;
-  height: 100%;
-  position: relative;
-  left: -100%;
+  	width: 500%;
+  	height: 100%;
+  	position: relative;
+  	left: -100%;
 }
 
 .slide {
-  width: calc(100% / 5);
-  height: 100%;
-  float: left;
-  font-size: 100px;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  	width: calc(100% / 5);
+  	height: 100%;
+  	float: left;
+  	font-size: 100px;
+  	color: black;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .button {
-  width: 30px;
-  height: 30px;
-  border-top: 2px solid black;
-  position: absolute;
-  cursor: pointer;
-  top:50%;
+  	width: 14px;
+  	height: 14px;
+  	border-top: 1px solid #747474;
+  	position:absolute;
+  	cursor: pointer;
+  	top:110%;
+	margin:0px 55%;
 }
 
 .prev {
-  border-left: 2px solid black;
-  left: 2.5%;
-  transform: rotate(-45deg);
+  	border-left: 1px solid #747474;
+  	transform: rotate(-45deg);
+	left:150px;
 }
 
 .next {
-  border-right: 2px solid black;
-  right: 2.5%;
-  transform: rotate(45deg);
+  	border-right: 1px solid #747474;
+  	transform: rotate(45deg);
+	left:190px;
 }
 
 .article_about {
@@ -368,6 +370,7 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
 	display:inline-block;
 	margin:0 auto;
 	height:inherit;
+	background-color:transparent;
 }
 
 .article_about ul li:nth-child(1) {
@@ -378,8 +381,29 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
 .article_about ul li:nth-child(2) {
 	width:50%;
 	float:right;
+	text-align: left;
+	letter-spacing: 0.25px;
+	top:50%;
+	transform: translate(0%, 10%);
 }
 
+.article_about ul li:nth-child(2) h2 {
+	font-size: 25px;
+	font-family:"Lato";
+	line-height: 27.5px;
+	width: 60%;
+	margin: 20px auto;
+	letter-spacing: 5px;
+	font-weight:600;
+}
+
+.article_about ul li:nth-child(2) p {
+	font-size:16px;
+	line-height: 27.5px;
+	color:#747474;
+	width:60%;
+	margin: 20px auto;
+}
 /*
 input[type=submit] {
 	background: none;

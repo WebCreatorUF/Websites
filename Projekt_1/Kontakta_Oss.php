@@ -27,7 +27,6 @@
 						</div>
 						<ul class="sidebar-list components">
 							<p><a href="index.html">Hem</a></p>
-							<p><a href="#">Kvalitet och Miljö</a></p>
 							<p><a href="Om_oss.html">Om oss</a></p>
 							<p><a href="Kontakta_Oss.php">Kontakta oss</a></p>
 						</ul>
@@ -52,9 +51,6 @@
 								</li>
 								<li>
 									<a href="Kontakta_Oss.php" style="font-weight: bolder; color: #e94335; font-size: 16px;">Kontakta oss</a>
-								</li>
-								<li>
-									<a href="#">Kvalitet och Miljö</a>
 								</li>
 								<li>
 									<a href="Om_oss.html">Om oss</a>

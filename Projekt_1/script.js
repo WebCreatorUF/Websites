@@ -86,14 +86,9 @@ $(function() {
       inWrap.css('left', '-100%');
 
       $('.slide').first().before($('.slide').last());
-
     });
-
-
   });
-
-
-
+  
   $('.next').on('click', function() {
 
     inWrap.animate({left: '-200%'}, 300, function(){
@@ -101,12 +96,6 @@ $(function() {
       inWrap.css('left', '-100%');
 
       $('.slide').last().after($('.slide').first());
-
     });
-
-
   });
-
-
-})
-
+});

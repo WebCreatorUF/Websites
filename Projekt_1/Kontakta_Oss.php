@@ -63,7 +63,7 @@
 			<article>
             	<div class="article_container">
 					<div class="article_top">
-                		<h1>Kontakta Oss</h1>
+                		<h1>KONTAKTA OSS</h1>
 					</div>
                     <ul>
                     	<li>
@@ -114,17 +114,23 @@
 								<h3>KONTAKTUPPGIFTER</h3>
 								<hr style="width:35px; margin:10px 0 15px 0; border:4px solid #2F2F2F;">
 								<p>Koppargatan 28, 271 39 YSTAD</p>
-								<p>Tel. 0411-55 51 10&ensp;<span>•</span>&ensp;Fax. 0411-780 57</p>
-								<p>E-mail: info@skanelas.se&ensp;<span>•</span>&ensp;<a href="index.html">www.skanelas.se</a></p>
+								<p><b>Tel.</b> 0411-55 51 10&ensp;<span>•</span>&ensp;<b>Fax.</b> 0411-780 57</p>
+								<p><b>E-mail:</b> info@skanelas.se&ensp;<span>•</span>&ensp;<a href="index.html">www.skanelas.se</a></p>
 							</li>
 							<li>
 								<h3>MENY</h3>
 								<hr style="width:35px; margin:10px 0 15px 0; border:4px solid #2F2F2F;">
-								<p><a href="index.html">Hem</a></p>
+								<p>
+									<a href="index.html">Hem</a>
+								</p>
 								<hr style="width: 100%; margin: 5px auto; border: 0.5px solid #2F2F2F;">
-								<p><a href="Om_oss.html">Om oss</a></p>
+								<p>
+									<a href="Om_oss.html">Om oss</a>
+								</p>
 								<hr style="width: 100%; margin: 5px auto; border: 0.5px solid #2F2F2F;">
-								<p><a href="Kontakta_Oss.php">Kontakta oss</a></p>
+								<p>
+									<a href="Kontakta_Oss.php">Kontakta oss</a>
+								</p>
 								<hr style="width: 100%; margin: 5px auto; border: 0.5px solid #2F2F2F;">
 							</li>
 						</ul>

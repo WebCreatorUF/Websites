@@ -40,22 +40,23 @@ img {
 }
 
 #btnReturn {
-	width: 50px;
-    height: 50px;
+	width: 45px;
+    height: 45px;
     border-radius: 50%;
+	border:2px solid #555;
     position: fixed;
     top: 88vh;
     z-index: 10;
     right: 2.5%;
 	cursor:pointer;
 	display: none;
-	background: url(Bilder/Small/up.png) no-repeat center #cbcbcb;
-	background-size:40px;
+	background: url(Bilder/Small/up.png) no-repeat center;
+	background-size:35px;
 	transition: .25s ease-in-out;
 }
 
 #btnReturn:hover {
-	background-color:#e94335;
+	background-size:40px;
 }
 
 span {
@@ -165,8 +166,9 @@ article h1 {
 	height: auto;
 	text-align: center;
 	font-family:"Lato";
-	font-weight: 300;
-	font-size: 35px;
+	font-weight: 600;
+	font-size: 25px;
+	letter-spacing: 3.5px;
 	margin: 0 auto;
 }
 
@@ -560,7 +562,7 @@ footer .info h3 {
 	font-family: "Lato";
 	font-weight: bolder;
 	font-size: 20px;
-	letter-spacing: 1.5px;
+	letter-spacing: 2.5px;
 	margin:0 auto;
 	line-height:50px;
 	width:100%;
@@ -662,7 +664,7 @@ footer .info li:nth-child(3) p {
 		transform: translate(0);
 		overflow: hidden;
 		background-color: transparent;
-		box-shadow: 5px 15px 75px -20px #777;
+		box-shadow: 0px 15px 75px -20px #777;
 	}
 
 	.inner-wrapper {
@@ -684,12 +686,12 @@ footer .info li:nth-child(3) p {
 	}
 
 	.button {
-		width: 1vw;
-		height: 1vw;
+		width: 1.5vw;
+		height: 1.5vw;
 		border-top: 2px solid #747474;
 		position:absolute;
 		cursor: pointer;
-		top:100%;
+		top:50%;
 		margin:0px 50%;
 		transition: .25s ease-in-out;
 	}
@@ -697,14 +699,14 @@ footer .info li:nth-child(3) p {
 	.prev {
 		border-left: 2px solid #747474;
 		transform: rotate(-45deg);
-		left:30%;
+		left:-53%;
 		transition: .25s ease-in-out;
 	}
 
 	.next {
 		border-right: 2px solid #747474;
 		transform: rotate(45deg);
-		left:30%;
+		left:40%;
 		margin: 0 60%;
 		transition: .25s ease-in-out;
 	}
@@ -806,22 +808,10 @@ footer .info li:nth-child(3) p {
 		text-align: left;
 		color: #fff;
 		font-weight: 500;
-		font-size: 14.5px;
+		font-size: 15.5px;
 		letter-spacing: 0.25px;
 		margin:0 auto;
 		line-height:27.5px;
-		width:100%;
-	}
-
-	footer .info h3 {
-		text-align: left;
-		color: #fff;
-		font-family: "Lato";
-		font-weight: bolder;
-		font-size: 20px;
-		letter-spacing: 1.5px;
-		margin:0 auto;
-		line-height:50px;
 		width:100%;
 	}
 
@@ -911,7 +901,55 @@ footer .info li:nth-child(3) p {
 	article ul:nth-child(2) li:nth-child(1) ul {
 		top:-2.5%;	
 	}
-
+	
+	.article_about ul li:nth-child(1) {
+    	width: 100%;
+	}
+	
+	.article_about ul li:nth-child(2) {
+		width: 100%;
+	}
+	
+	.article_about ul li:nth-child(2) h2 {
+		font-size: 28px;
+	}
+	
+	.article_about ul li:nth-child(2) p {
+		font-size: 17px;
+		line-height: 30px;
+		color: #747474;
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.slider-wrapper {
+		width: 80%;
+	}
+	
+	.article_about .img_about img {
+		width: 85vw;
+		height: auto;
+		transform: translate(0);
+		top: 0;
+		position: relative;
+		box-shadow: 0px 15px 75px -20px #777;
+	}
+	
+	.prev {
+		left: -46%;
+	}
+	
+	.next {
+		left: 33.5%;
+	}
+	
+	footer p {
+		font-size: 17px;
+	}
+	
+	footer .info h3 {
+		font-size: 23px;
+	}
 	/*---------------------------------------*/
 
 	.wrappercontainer {
@@ -1086,5 +1124,12 @@ footer .info li:nth-child(3) p {
 		position:absolute;
 		top:0;
 		right:0;
-	}		
+	}
+	
+	#btnReturn {
+		background: none;
+		border: none;
+		width: 0;
+		height: 0;
+	}
 }

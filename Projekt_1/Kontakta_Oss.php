@@ -62,9 +62,15 @@
 			</header>
 			<article>
             	<div class="article_container">
-					<div class="article_top">
-                		<h1>KONTAKTA OSS</h1>
-					</div>
+					<div>
+                    	<div class="article_top">
+                        	<div class="inner_article_top">
+                                <h1>KONTAKTA OSS</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+						</div>
+                   		<div class="rotate"></div>
+             		</div>
                     <ul>
                     	<li>
                         	<ul>

@@ -158,18 +158,28 @@ article .article_container{
 }
 
 .article_top {
-	padding: 50px 0px;
+	height:150px;
+	padding:50px 0px;
+	background-color: #F3F3F3;
+	position:relative;
+	z-index:3;
 }
 
-article h1 {
-	width: 100%;
-	height: auto;
-	text-align: center;
-	font-family:"Lato";
-	font-weight: 600;
-	font-size: 25px;
-	letter-spacing: 3.5px;
-	margin: 0 auto;
+.inner_article_top {
+	top:50%; 
+	transform: translate(0%, -50%); 
+	position:relative;
+	line-height:70px;
+}
+
+.rotate {
+	transform: rotate(-2.5deg) translate(-50%, -200%);
+	height:150px;
+	width:10000px;
+	background-color: #F3F3F3;
+	position:relative;
+	left:50%;
+	top:200%;
 }
 
 article ul {
@@ -295,13 +305,25 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
 	letter-spacing: 0.25px;
 }
 
+.article_top h1 {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family:"Lato";
+	font-weight: 600;
+	font-size: 30px;
+	letter-spacing: 5px;
+	margin: 0 auto;
+}
+
+
 .article_top p {
 	font-size:16px;
 	color:#747474;
 	letter-spacing: 0.25px;
-	margin: 30px auto;
+	margin:0px auto;
 	position: relative;
-	width: 60%;
+	width: 50%;
 	text-align: center;
 	line-height: 25px;
 }

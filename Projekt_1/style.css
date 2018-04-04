@@ -56,7 +56,7 @@ img {
 }
 
 #btnReturn:hover {
-	background-size:40px;
+	transform: scaleX(-1);
 }
 
 span {
@@ -160,7 +160,7 @@ article .article_container{
 .article_top {
 	height:150px;
 	padding:50px 0px;
-	background-color: #F3F3F3;
+	background-color: #e94335;
 	position:relative;
 	z-index:3;
 }
@@ -176,7 +176,7 @@ article .article_container{
 	transform: rotate(-2.5deg) translate(-50%, -200%);
 	height:150px;
 	width:10000px;
-	background-color: #F3F3F3;
+	background-color: #e94335;
 	position:relative;
 	left:50%;
 	top:200%;
@@ -314,12 +314,13 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
 	font-size: 30px;
 	letter-spacing: 5px;
 	margin: 0 auto;
+	color:#fff;
 }
 
 
 .article_top p {
 	font-size:16px;
-	color:#747474;
+	color:#fff;
 	letter-spacing: 0.25px;
 	margin:0px auto;
 	position: relative;

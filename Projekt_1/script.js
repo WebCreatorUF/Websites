@@ -88,8 +88,6 @@ $(function() {
       $('.slide').first().before($('.slide').last());
 
     });
-
-
   });
 
 
@@ -103,10 +101,35 @@ $(function() {
       $('.slide').last().after($('.slide').first());
 
     });
+  });
+});
 
+$(function() {
 
+  var inWrap = $('.inner-wrapperI');
+
+  $('.prevI').on('click', function() {
+
+    inWrap.animate({left: '0%'}, 500, function(){
+
+      inWrap.css('left', '-100%');
+
+      $('.slide').first().before($('.slide').last());
+
+    });
   });
 
 
-})
+
+  $('.nextI').on('click', function() {
+
+    inWrap.animate({left: '-200%'}, 500, function(){
+
+      inWrap.css('left', '-100%');
+
+      $('.slide').last().after($('.slide').first());
+
+    });
+  });
+});
 

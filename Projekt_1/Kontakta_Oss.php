@@ -23,7 +23,7 @@
 							<div>☰</div>
 						</div>
 						<div class="sidebar-header">
-							<a href="index.html"><img src="Bilder/Logos/logo_text.png" alt="logo"></a>
+							<a href="index.html"><!---SKÅNE LÅS AB--></a>
 						</div>
 						<ul class="sidebar-list components">
 							<p><a href="index.html">Hem</a></p>

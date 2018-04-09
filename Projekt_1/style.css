@@ -536,14 +536,14 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
 
 .prevI {
   border-left: 4px solid #747474;
-  left: 10%;
+  left: 5%;
   transform: rotate(-45deg);
   transition:.25s ease-in-out;
 }
 
 .nextI {
   	border-right: 4px solid #747474;
-  	right: 10%;
+  	right: 5%;
   	transform: rotate(45deg);
 	transition: .25s ease-in-out;
 }
@@ -551,15 +551,11 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
 .prevI:hover {
   	border-left: 4px solid #e94335;
     border-top: 4px solid #e94335;
-  	left: 10%;
-  	transform: rotate(-45deg);
 }
 
 .nextI:hover {
   	border-right: 4px solid #e94335;
     border-top: 4px solid #e94335;
-  	right: 10%;
-	transform: rotate(45deg);
 }
 
 /*
@@ -1068,7 +1064,7 @@ footer .info li:nth-child(3) p {
 		left:-275px;
 		height:100%;
 		z-index:999;
-		background:#FFF;
+		background:#e94335;
 		color:#000;
 		transition:all 0.3s;
 		overflow-y:scroll;
@@ -1095,7 +1091,7 @@ footer .info li:nth-child(3) p {
 	}
 
 	#dismiss:hover {
-		color:#e94335;
+		color:#fff;
 	}
 
 	.overlayside {
@@ -1123,40 +1119,32 @@ footer .info li:nth-child(3) p {
 
 	#sidebar .sidebar-header {
 		padding:0;
-		background:#FFF;
+		background:#e94335;
 		text-align: center;
 		width:100%;
 		height:70px;
-		border-bottom:solid 1px #000; 
 	}
 
 	#sidebar .sidebar-header a {
 		text-decoration: none;
-		font-family:"Base";
+		font-family:"Lato";
 		line-height: 100px;
-		font-size: 30px;
+		font-size: 24px;
 		color: #000;
 		letter-spacing: 1.25px;
 	}
 
 	#sidebar .sidebar-list p {
-		padding:10px 0px 10px 0px;
+		padding:15px 0px;
 		text-align:center;
-		font-family:"Base";
-		letter-spacing:1.25px;
+		font-family:"Lato";
+		font-size: 20px;
+		letter-spacing:2.5px;
 		color:#000;
 	}
 
-	#sidebar .sidebar-header img {
-		width:135px;
-		height:auto;
-		margin: 0 auto;
-		position: relative;
-		top: -6px;
-	}
-
 	#sidebar ul.components {
-		padding:20px 0px 20px 0px;
+		padding:20px 0px;
 	}
 
 	#sidebar ul p a {
@@ -1168,7 +1156,7 @@ footer .info li:nth-child(3) p {
 	}
 
 	#sidebar ul p a:hover {
-		color:#e94335;
+		color:#fff;
 	}
 
 	#sidebar ul li.active > a, a[aria-expanded="true"] {
@@ -1214,7 +1202,7 @@ footer .info li:nth-child(3) p {
 		width:100%;
 		padding:20px;
 		min-height:100vh;
-		transition:all 0.3s;
+		transition:all 0.25s;
 		position:absolute;
 		top:0;
 		right:0;

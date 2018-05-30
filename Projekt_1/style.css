@@ -345,6 +345,15 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
     transform: translate(-40%, -50%);
 }
 
+.r_text {
+	position:relative;
+	width:65%;
+	height: auto;
+    top: 50%;
+	left:15%;
+    transform: translate(-15%, -50%);
+}
+
 .article_about:nth-child(odd) .container_text {
 	position:relative;
 	width:65%;
@@ -492,6 +501,14 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
 	box-shadow: -5px 15px 75px -20px #777;
 }
 
+.article_about .r_logo img {
+	width:250px; 
+	height:auto; 
+	transform: translate(30%, -50%); 
+	top:50%; 
+	position: relative;
+	box-shadow: none;
+}
 
 .container_slide {
 	display: flex;
@@ -550,11 +567,29 @@ article ul li:nth-child(1) ul li:nth-child(5) p {
     position: relative;
 }
 
-.slide:nth-child(2) h2 {
+.slide_first h2 {
 	line-height: 5px;
 }
 
-.slide:nth-child(2) p {
+.slide_first p {
+	line-height: 5px;
+}
+
+.slide_second h2 {
+	line-height: 5px;
+}
+
+.slide_second p {
+	line-height: 5px;
+}
+
+.slide_third h2 {
+	line-height: 47.5px;
+	width: 385px;
+	margin: 0;
+}
+
+.slide_third p {
 	line-height: 5px;
 }
 
@@ -898,13 +933,14 @@ footer .info li:nth-child(3) p {
 		height: inherit;
 	}
 
-	.article_about .img_about img {
-		width:41vw; 
+	.article_about .r_logo img {
+		width:250px; 
 		height:auto; 
 		transform: translate(0); 
 		top:0; 
+		margin: 50px auto 0px auto;
 		position: relative;
-		box-shadow: -5px 15px 75px -20px #777;
+		box-shadow: none;
 	}
 
 	footer ul {
@@ -1051,12 +1087,11 @@ footer .info li:nth-child(3) p {
 	}
 	
 	.article_about .img_about img {
-		width: 85vw;
+		width: 250px;
 		height: auto;
 		transform: translate(0);
 		top: 0;
 		position: relative;
-		box-shadow: 0px 15px 75px -20px #777;
 	}
 	
 	.prev {
